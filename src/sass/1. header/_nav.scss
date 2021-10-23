@@ -1,0 +1,24 @@
+@import "../base";
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  a {
+    color: $White;
+    margin: 0 1em;
+    text-decoration: none;
+    margin-right: auto;
+    right: 0;
+    font-family: $HeadingFont;
+    padding: 0 0.25em;
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .nav {
+    a {
+      padding: 0 1em;
+    }
+  }
+}

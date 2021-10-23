@@ -1,0 +1,58 @@
+@import "../base";
+
+.cta__section {
+  border-radius: 20px;
+  .cta {
+    background-color: $DarkBlue;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    transform: translateY(200px);
+    padding: 1em;
+    p {
+      margin: 0 2em;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    align-items: center;
+    input {
+      border-radius: 50px;
+      border: none;
+      padding: 1.5em;
+      font-family: $BodyFont;
+      margin: 2em;
+      width: 100%;
+    }
+    .button {
+      background-color: $Cyan;
+      color: $White;
+      border-radius: 50px;
+      border: none;
+      margin: 1em 0;
+      padding: 1.5em;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .cta__section {
+    margin-top: 5em;
+    width: 55%;
+    margin: 0 auto;
+    .cta {
+      transform: translateY(100px);
+      width: 700px;
+      form {
+        flex-direction: row;
+        input {
+          width: 75%;
+        }
+      }
+    }
+  }
+}

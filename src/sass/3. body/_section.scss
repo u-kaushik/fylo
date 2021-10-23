@@ -1,0 +1,47 @@
+@import "../base";
+
+.section {
+  text-align: left;
+  padding: 3em;
+  .section__img {
+    max-width: 100%;
+  }
+  .section__paragraph {
+    margin: 1em 0;
+  }
+  .section__link {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $Cyan;
+    line-height: 2.5em;
+    width: 155px;
+    a {
+      color: $Cyan;
+      margin-right: 0.5em;
+      text-decoration: none;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .section__content {
+      margin-left: 3em;
+      width: 450px;
+      h2 {
+        width: 200px;
+      }
+    }
+    .section__img {
+      width: 800px;
+    }
+  }
+}

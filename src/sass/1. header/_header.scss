@@ -1,0 +1,13 @@
+@import "../base";
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 3em;
+  align-items: center;
+  justify-content: space-between;
+  .logo__img {
+    width: 150px;
+    padding: 0;
+  }
+}
