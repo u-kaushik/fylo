@@ -2,7 +2,7 @@
 
 A responsive landing page built using Sass with React functional components 
 
-![image](https://user-images.githubusercontent.com/83171355/138564244-c2ebeda8-8a86-4ce4-9600-3ce8bda77465.png)
+![fylo](https://user-images.githubusercontent.com/83171355/140056245-87d2ea39-b0c7-4948-af52-af660c4b1444.png)
 
 
 https://fylo-dark-sass.netlify.app/
