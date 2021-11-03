@@ -23,7 +23,7 @@
       border: none;
       padding: 1.5em;
       font-family: $BodyFont;
-      margin: 2em;
+      margin: 1em;
       width: 100%;
     }
     .button {
@@ -31,10 +31,23 @@
       color: $White;
       border-radius: 50px;
       border: none;
-      margin: 1em 0;
+      margin: 1em;
       padding: 1.5em;
       width: 100%;
       cursor: pointer;
+    }
+    .cta__submit {
+      position: absolute;
+      left: 0;
+      transform: translate(30px, 75px);
+      .cta__submit-text-error {
+        color: red;
+        font-size: 12px;
+      }
+      .cta__submit-text-valid {
+        color: green;
+        font-size: 12px;
+      }
     }
   }
 }
@@ -51,6 +64,9 @@
         flex-direction: row;
         input {
           width: 75%;
+        }
+        .cta__submit {
+          transform: translate(40px, 50px);
         }
       }
     }
