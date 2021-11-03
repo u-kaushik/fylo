@@ -2,7 +2,7 @@
 
 .testimonials {
   text-align: left;
-  padding: 5em 0;
+  padding: 3em;
 
   .testimonial__icon {
     position: absolute;
@@ -12,11 +12,15 @@
   .testimonial {
     background-color: $Testimonials;
     border-radius: 10px;
-    padding: 2.5em;
-    margin: 2em;
+    padding: 2em;
+    margin: 2em 0;
+    p {
+      margin: 1em 0;
+    }
     .testimonial__profile {
       display: flex;
       height: 50px;
+      margin: 1em 0;
 
       img {
         border-radius: 100px;
@@ -44,15 +48,16 @@
 @media screen and (min-width: 1090px) {
   .testimonials {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     .testimonial__icon {
-      transform: translateY(5px);
-      left: 5%;
+      transform: translateY(-25px);
+      left: 3%;
       z-index: -1;
     }
     .testimonial {
       width: 28%;
+      margin: 0;
     }
   }
 }
