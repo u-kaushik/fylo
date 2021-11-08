@@ -7,7 +7,15 @@
   align-items: center;
   justify-content: space-between;
   .logo__img {
-    width: 150px;
+    width: 100px;
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .header {
+    .logo__img {
+      width: 150px;
+    }
   }
 }

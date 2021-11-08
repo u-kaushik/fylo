@@ -1,6 +1,7 @@
 @import "../base";
 
 .hero {
+  margin: 0 3em;
   .hero__img {
     width: 100%;
   }
@@ -11,16 +12,9 @@
     border-radius: 50px;
     border: none;
     width: 250px;
-    margin: 2em;
-  }
-  h1 {
-    margin: 1em auto;
-    width: 400px;
   }
   p {
-    width: 450px;
-    margin: 1em auto;
-    padding: 0 2em;
+    margin: 1em 0;
   }
 }
 
